@@ -1,0 +1,63 @@
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.hotels {
+    padding: 0;
+}
+.hotels .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.hotels .container .box {
+    flex: 1 1 30rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  
+}
+
+
+.hotels .container .box img{
+ height: 25rem;
+ width: 25rem;
+ object-fit: cover;
+ position:center;
+}
+
+.hotels .container .box .content{
+    padding: 2rem;
+}
+.hotels .container .box .content h3{
+    font-size: 2rem;
+    color: #333;
+}
+.hotels .container .box .content h3 i{
+    
+    color:var(--orange);
+}
+.hotels .container .box .content p{
+    font-size: 1.7rem;
+    color: #666;
+    padding: 1rem 0;
+}
+.hotels .container .box .content .stars i{
+    font-size: 1.7rem;
+    color:var(--orange);
+    
+}
+.hotels .container .box .content .price{
+    font-size: 2rem;
+    color: #333;
+    padding: 1rem;
+
+}
+.hotels .container .box .content .price span{
+    color: #666;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+
+}
